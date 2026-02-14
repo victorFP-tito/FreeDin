@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #F4F6F8;
+}
+
+/* LOGIN */
+
+.login-body {
+  background: linear-gradient(135deg, #0A192F, #112240);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: #FFFFFF;
+  padding: 40px;
+  border-radius: 10px;
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 10px;
+}
+
+.orange {
+  color: #FF6B00;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #FF6B00;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #e65c00;
+}
+
+/* NAVBAR */
+
+nav {
+  background-color: #0A192F;
+  color: white;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #FF6B00;
+}
+
+/* FEED */
+
+.feed-container {
+  width: 70%;
+  margin: 40px auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.card button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #FF6B00;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* PERFIL */
+
+.perfil-container {
+  width: 60%;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.perfil-header {
+  text-align: center;
+}
+
+.perfil-header img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
